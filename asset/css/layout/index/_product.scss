@@ -1,0 +1,83 @@
+.product {
+  text-align: center;
+  margin-bottom: 20px;
+  &-heading {
+    font-size: 5rem;
+    font-weight: 700;
+    color: $primary-color;
+  }
+  &-desc {
+    font-size: 2rem;
+    font-style: italic;
+    font-weight: 500;
+    color: $secondary-color;
+    margin-bottom: 30px;
+  }
+  &-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  &-list {
+    padding-bottom: 26px;
+  }
+  &-item {
+    width: 100%;
+    padding: 10px 20px;
+    border: 1px solid #cce7d0;
+    border-radius: 20px;
+    cursor: pointer;
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.02);
+    transition: 0.2s ease;
+    position: relative;
+  }
+  &-item:hover {
+    box-shadow: 20px 20px 30px rgba(0, 0, 0, 0.06);
+  }
+  &-img {
+    border-radius: 20px;
+    width: 100%;
+    object-fit: cover;
+  }
+  &-item-desc {
+    text-align: start;
+    padding: 10px 0;
+  }
+  &-brand {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
+  &-name {
+    padding-top: 6px;
+    color: $primary-color;
+    font-size: 1.6rem;
+    height: 3.2rem;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    width: 100%;
+  }
+  &-star {
+    font-size: 1.2rem;
+    color: rgb(243, 181, 25);
+    padding: 6px 0 10px;
+  }
+  &-price {
+    font-size: 1.8rem;
+    color: $secondary-color;
+    font-weight: 700;
+  }
+  &-link {
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    border-radius: 50px;
+    background-color: #e8f6ea;
+    color: $secondary-color;
+    font-size: 1.6rem;
+    text-decoration: none;
+    border: 1px solid #cce7d0;
+    position: absolute;
+    bottom: 20px;
+    right: 10px;
+  }
+}

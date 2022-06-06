@@ -1,0 +1,71 @@
+//collection 1
+.collection {
+  display: flex;
+  margin-bottom: 24px;
+  &-box {
+    @include flexbox(flex-start, center, flex);
+    flex-direction: column;
+    background: url("../img/banner/b17.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 50vh;
+    padding: 30px;
+    &:hover .colection-button {
+      background: $secondary-color;
+      border: 1px solid $secondary-color;
+    }
+  }
+  &-box2 {
+    background: url("../img/banner/b10.jpg") no-repeat center/cover;
+  }
+  &-deal {
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 400;
+  }
+  &-title {
+    color: #fff;
+    font-size: 4rem;
+    font-weight: 800;
+  }
+  &-content {
+    color: #fff;
+    font-size: 1.3rem;
+    padding-bottom: 2rem;
+  }
+}
+
+//colection 2:
+.collection2 {
+  display: flex;
+  margin-bottom: 24px;
+  &-box {
+    @include flexbox(flex-start, center, flex);
+    flex-direction: column;
+    background: url("../img/banner/b7.jpg") no-repeat center/cover;
+    width: 100%;
+    height: 30vh;
+    padding: 20px;
+  }
+  &-box2 {
+    background: url("../img/banner/b4.jpg") no-repeat center/cover;
+  }
+  &-box3 {
+    background: url("../img/banner/b18.jpg") no-repeat center/cover;
+  }
+  &-title {
+    color: #fff;
+    font-weight: 900;
+    font-size: 22px;
+  }
+  &-content {
+    color: #eee;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .collection {
+    &-box {
+      height: 30vh;
+    }
+  }
+}

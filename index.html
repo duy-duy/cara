@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="./asset/css/reset.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="./asset/css/style.css" />
+  <title>Cara - Thời trang</title>
+</head>
+
+<body>
+  <header class="header">
+    <div class="grid container header__container">
+      <a href="#" class="header__logo">
+        <img src="./asset/img/logo.png" alt="LoGo" class="header__logo-img" />
+      </a>
+
+      <nav>
+        <ul class="header__navbar-list">
+          <li class="header__navbar-item">
+            <a href="index.html" class="header__navbar-link active">Trang chủ</a>
+          </li>
+          <li class="header__navbar-item">
+            <a href="shop.html" class="header__navbar-link">Cửa hàng</a>
+          </li>
+          <li class="header__navbar-item">
+            <a href="blog.html" class="header__navbar-link">Blog</a>
+          </li>
+          <li class="header__navbar-item">
+            <a href="about.html" class="header__navbar-link">Thông tin</a>
+          </li>
+          <li class="header__navbar-item">
+            <a href="contact.html" class="header__navbar-link">Liên hệ</a>
+          </li>
+          <li class="header__navbar-item">
+            <a href="contact.html" class="header__navbar-link header__navbar-link-cart"><i
+                class="fa-solid fa-cart-shopping"></i></a>
+          </li>
+          <a href="#" class="header__navbar-item-close">
+            <i class="fa-solid fa-xmark"></i>
+          </a>
+        </ul>
+      </nav>
+      <div class="header-mobile">
+        <a href="contact.html" class="header-mobile-bars"><i class="fa-solid fa-cart-shopping"></i></a>
+        <i class="fa fa-bars header-toggle header-mobile-bars"></i>
+      </div>
+    </div>
+  </header>
+
+  <section class="banner">
+    <div class="grid container banner__content">
+      <h1>Tất cả sản phẩm</h1>
+      <p>Tiết kiệm hơn với phiếu giảm giá 70%</p>
+      <button>Cửa hàng</button>
+    </div>
+  </section>
+
+  <section class="feature">
+    <div class="grid container">
+      <div class="feature-list row">
+        <div class="feature-box column column-pc-2 column-tablet-4 column-mobile-6">
+          <div class="feature-box-border">
+            <img class="feature-img" src="./asset/img/features/f1.png" alt="" />
+            <h6 class="feature-title">Miễn phí ship</h6>
+          </div>
+        </div>
+        <div class="feature-box column column-pc-2 column-tablet-4 column-mobile-6">
+          <div class="feature-box-border">
+            <img class="feature-img" src="./asset/img/features/f2.png" alt="" />
+            <h6 class="feature-title">Đặt hàng ngay</h6>
+          </div>
+        </div>
+        <div class="feature-box column column-pc-2 column-tablet-4 column-mobile-6">
+          <div class="feature-box-border">
+            <img class="feature-img" src="./asset/img/features/f3.png" alt="" />
+            <h6 class="feature-title">Tiết kiệm chi phí</h6>
+          </div>
+        </div>
+        <div class="feature-box column column-pc-2 column-tablet-4 column-mobile-6">
+          <div class="feature-box-border">
+            <img class="feature-img" src="./asset/img/features/f4.png" alt="" />
+            <h6 class="feature-title">Khuyến mãi</h6>
+          </div>
+        </div>
+        <div class="feature-box column column-pc-2 column-tablet-4 column-mobile-6">
+          <div class="feature-box-border">
+            <img class="feature-img" src="./asset/img/features/f5.png" alt="" />
+            <h6 class="feature-title">Happy Sell</h6>
+          </div>
+        </div>
+        <div class="feature-box column column-pc-2 column-tablet-4 column-mobile-6">
+          <div class="feature-box-border">
+            <img class="feature-img" src="./asset/img/features/f6.png" alt="" />
+            <h6 class="feature-title">Hỗ trợ 24/7</h6>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Product -->
+  <div class="grid container">
+    <div class="row">
+      <section class="product">
+        <h2 class="product-heading">Sản phẩm</h2>
+        <p class="product-desc">Bộ sưu tập mùa hè thiết kế mới</p>
+        <div class="product-container">
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/f1.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi họa tiết</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/f2.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi họa tiết</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/f3.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi họa tiết</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/f4.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi họa tiết</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/f5.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi họa tiết</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/f6.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/f7.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Quần dài họa tiết</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/f8.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi nữ họa tiết</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- service -->
+  <div class="grid">
+    <section class="service">
+      <h4 class="service-text">Dịch vụ</h4>
+      <h2 class="service-title">
+        Giảm giá tới <span style="color: #ef3636">70%</span> - Tất cả áo thun và phụ kiện
+      </h2>
+      <button class="service-button normal">Tìm hiểu thêm</button>
+    </section>
+  </div>
+
+  <!-- New Product -->
+  <div class="grid container">
+    <div class="row">
+      <section class="product">
+        <h2 class="product-heading">Bộ sưu tập mới</h2>
+        <p class="product-desc">Bộ sưu tập mùa hè thiết kế mới</p>
+        <div class="product-container">
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/n1.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/n2.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/n3.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/n4.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi tay ngắn họa tiết</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/n5.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/n6.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Quần sooc nam</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/n7.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+          <div class="column column-pc-3 column-tablet-4 column-mobile-12 product-list">
+            <div class="product-item">
+              <img src="./asset/img/products/n8.jpg" alt="" class="product-img" />
+              <div class="product-item-desc">
+                <span class="product-brand">Cara</span>
+                <h5 class="product-name">Áo sơ mi tay ngắn</h5>
+                <div class="product-star">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                </div>
+                <h4 class="product-price">250.000đ</h4>
+              </div>
+              <a href="#" class="product-link fa-solid fa-cart-shopping"></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+
+  <!-- collection 1 -->
+  <div class="grid container">
+    <div class="row">
+      <div class="column column-pc-6 column-tablet-12 column-mobile-12">
+        <section class="collection">
+          <div class="collection-box">
+            <h4 class="collection-deal">Khuyến mãi</h4>
+            <h2 class="collection-title">Mua 1 tặng 1</h2>
+            <span class="collection-content">Đầm đang được giảm giá ở cara. Hãy ghé ngay!</span>
+            <button class="white colection-button">Xem thêm</button>
+          </div>
+      </div>
+      <div class="column column-pc-6 column-tablet-12 column-mobile-12">
+        <section class="collection">
+          <div class="collection-box collection-box2">
+            <h4 class="collection-deal">Sắp tới</h4>
+            <h2 class="collection-title">Mùa xuân / Mùa hè</h2>
+            <span class="collection-content">Quần áo đang được giảm giá ở cara. Hãy ghé ngay!</span>
+            <button class="white colection-button">Bộ sưu tập</button>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- collection 2 -->
+  <div class="grid container">
+    <div class="row">
+      <div class="column column-pc-4 column-tablet-12 column-mobile-12">
+        <section class="collection2">
+          <div class="collection2-box">
+            <h2 class="collection2-title">Giảm giá theo mùa</h2>
+            <h3 class="collection2-content">Bộ sưu tập mùa đông giảm 50%</h3>
+          </div>
+      </div>
+      <div class="column column-pc-4 column-tablet-12 column-mobile-12">
+        <section class="collection2">
+          <div class="collection2-box collection2-box2">
+            <h2 class="collection2-title">Bộ sưu tập mới nhất</h2>
+            <h3 class="collection2-content">Mùa xuân / Mùa hè 2022</h3>
+          </div>
+        </section>
+      </div>
+      <div class="column column-pc-4 column-tablet-12 column-mobile-12">
+        <section class="collection2">
+          <div class="collection2-box collection2-box3">
+            <h2 class="collection2-title">Áo thun</h2>
+            <h3 class="collection2-content">Thời trang mới nhất</h3>
+          </div>
+        </section>
+      </div>
+    </div>
+  </div>
+
+  <!-- Sign up newsletter-->
+  <div class="grid">
+    <section class="newsletter">
+      <div class="newsletter-text">
+        <h4 class="newsletter-title">Đăng ký để nhận thông tin mới nhất</h4>
+        <p class="newsletter-content">Nhận thông tin mới nhất qua e-mail về cửa hàng của chúng tôi và những <span
+            style="color: #ffbd27">ưu đãi đặc biệt</span></p>
+      </div>
+      <div class="newsletter-form">
+        <input type="email" name="" id="" placeholder="Nhập địa chỉ email của bạn">
+        <button class="white">Đăng ký</button>
+      </div>
+    </section>
+  </div>
+
+  <!-- footer -->
+  <footer>
+    <div class="grid container">
+      <div class="row">
+        <div class="column column-pc-4 column-tablet-6 footer-info">
+          <img class="footer-info-img" src="./asset/img/logo.png" alt="logo">
+          <h4 class="footer-info-contact">Contact</h4>
+          <p class="footer-info-address"><strong>Địa chỉ:</strong> 129, tổ 19, khu phố 2, phường Long Bình Tân, Biên
+            Hòa, Đồng Nai</p>
+          <p class="footer-info-phone"><strong>Liên hệ:</strong> 0392544309</p>
+          <p class="footer-info-address"><strong>Giờ mở cửa:</strong> 8:00-21:00 từ Thứ 2 - Chủ Nhật</p>
+          <div class="footer-info-follow">
+            <div class="footer-info-followUs">Follow Us</div>
+            <div class="footer-info-social">
+              <i class="footer-info-brands fa-brands fa-facebook-f"></i>
+              <i class="footer-info-brands fa-brands fa-twitter"></i>
+              <i class="footer-info-brands fa-brands fa-instagram"></i>
+              <i class="footer-info-brands fa-brands fa-pinterest-p"></i>
+              <i class="footer-info-brands fa-brands fa-youtube"></i>
+            </div>
+          </div>
+
+        </div>
+        <!-- footer about -->
+        <div class="column column-pc-2 column-tablet-3 footer-about">
+          <h4 class="footer-about-title">Thông tin</h4>
+          <a href="#" class="footer-about-link">Về chúng tôi</a>
+          <a href="#" class="footer-about-link">Thông tin vận chuyển</a>
+          <a href="#" class="footer-about-link">Chính sách riêng tư</a>
+          <a href="#" class="footer-about-link">Điều khoản & Điều kiện</a>
+          <a href="#" class="footer-about-link">Liên hệ</a>
+        </div>
+        <!-- footer account -->
+        <div class="column column-pc-2 column-tablet-3 footer-account">
+          <h4 class="footer-account-title">Tài khoản</h4>
+          <a href="#" class="footer-account-link">Đăng nhập</a>
+          <a href="#" class="footer-account-link">Sản phẩm yêu thích</a>
+          <a href="#" class="footer-account-link">Theo dõi đơn hàng</a>
+          <a href="#" class="footer-account-link">Giúp đỡ</a>
+        </div>
+        <!-- footer install -->
+        <div class="column column-pc-4 column-tablet-12 footer-install">
+          <h4 class="footer-install-title">Cài đặt ứng dụng</h4>
+          <div class="footer-install-flex">
+            <div>
+              <p class="footer-install-desc">Từ Google Play hoặc App Store</p>
+              <div class="footer-install-app">
+                <img src="./asset/img/pay/play.jpg" alt="" class="footer-install-app-mobile">
+                <img src="./asset/img/pay/app.jpg" alt="" class="footer-install-app-mobile">
+              </div>
+            </div>
+            <div>
+              <p class="footer-install-payment">Cổng thanh toán</p>
+              <img src="./asset/img/pay/pay.png" alt="">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid">
+      <div class="footer-copyright">
+        <p>&copy; Cửa hàng thời trang Cara</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./script.js"></script>
+</body>
+
+</html>

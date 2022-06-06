@@ -1,0 +1,102 @@
+footer {
+  margin-top: 62px;
+}
+.footer {
+  &-info-img {
+    margin-bottom: 24px;
+  }
+  &-info-contact {
+    font-size: 1.4rem;
+    padding-bottom: 14px;
+  }
+  &-info p {
+    font-size: 1.4rem;
+    margin: 0 0 8px 0;
+  }
+  &-info-followUs {
+    font-size: 1.4rem;
+    margin-top: 20px;
+    margin-bottom: 10px;
+    font-weight: bold;
+  }
+  &-info-social {
+    color: #465b52;
+  }
+  &-info-brands {
+    font-size: 2.5rem;
+    padding-right: 10px;
+    margin-right: 10px;
+  }
+  // footer-about
+  &-about,
+  &-account {
+    display: flex;
+    flex-direction: column;
+  }
+  &-about-title,
+  &-account-title,
+  &-install-title {
+    font-size: 2rem;
+    height: 64px;
+  }
+  &-about-link,
+  &-account-link,
+  &-install-desc,
+  &-install-payment {
+    text-decoration: none;
+    color: #222;
+    font-size: 1.4rem;
+    font-weight: 500;
+    margin-bottom: 1rem;
+    transform: translateX(0);
+  }
+
+  &-about-link:hover,
+  &-account-link:hover {
+    transform: translateX(10px);
+    transition: all 0.25s linear;
+    color: red;
+  }
+
+  //   footer install
+  &-install-title {
+    font-size: 2rem;
+  }
+  &-install-app {
+    @include flexbox();
+    gap: 20px;
+    margin-bottom: 20px;
+  }
+  &-install-app-mobile {
+    width: 100%;
+    border: 1px solid $secondary-color;
+    border-radius: 6px;
+  }
+
+  &-copyright {
+    $height: 50px;
+    display: block;
+    font-weight: 600;
+    font-size: 1.4rem;
+    margin-top: 30px;
+    height: $height;
+    width: 100%;
+    text-align: center;
+    background: #e3e6f3;
+    line-height: $height;
+    cursor: default;
+    user-select: none;
+  }
+}
+
+@media (min-width: 740px) and (max-width: 1023px) {
+  .footer-install {
+    margin-top: 40px;
+    &-flex {
+      @include flexbox(flex-start, space-between, flex);
+    }
+    &-title {
+      height: 36px;
+    }
+  }
+}
